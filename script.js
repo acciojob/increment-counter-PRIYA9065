@@ -6,7 +6,7 @@ const counter = document.getElementById("counter");
 // })
 
 function clicked(){
-	ct = ct + 1;
 	alert(ct);
+	ct = ct + 1;
 	counter.innerText = ct;
 }
